@@ -25,6 +25,6 @@ public class EmployeeController {
 
     @GetMapping("/health")
     public String health() {
-        return "Application running, Now you can see it on jenkins!!";
+        return "Application running, Now you can see it on jenkins --> POLL SCM!!";
     }
 }
